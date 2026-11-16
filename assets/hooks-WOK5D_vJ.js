@@ -1,0 +1,1 @@
+import{B as e,Z as t,z as n}from"./Skeletons-pr41FT4r.js";var r={health:[`api`,`health`],version:[`api`,`version`],session:[`api`,`session`]};function i(){return t({queryKey:r.health,queryFn:({signal:e})=>n(e),retry:!1,refetchOnWindowFocus:!0})}function a(){return t({queryKey:r.version,queryFn:({signal:t})=>e(t)})}export{i as n,a as r,r as t};

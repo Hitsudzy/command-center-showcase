@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./jsx-runtime-Dk72oS4N.js";import{f as n}from"./channels-Cco3cJ4S.js";var r=e(t(),1),i=5e3;function a(e,t){let[a,o]=(0,r.useState)(()=>Date.now());return(0,r.useEffect)(()=>{let e=setInterval(()=>o(Date.now()),i);return()=>clearInterval(e)},[]),n(e,t?(a-t)/1e3:0)}export{a as t};

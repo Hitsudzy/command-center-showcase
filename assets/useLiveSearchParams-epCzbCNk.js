@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./jsx-runtime-Dk72oS4N.js";import{d as n,i as r}from"./lib-DlowmJHl.js";var i=e(t(),1);function a(){let[e,t]=r(),a=(0,i.useContext)(n)?.router;return[e,(n,r={replace:!0})=>{let i=new URLSearchParams(a?a.state.location.search:e);t(n(i),r)}]}export{a as t};

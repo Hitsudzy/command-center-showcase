@@ -1,0 +1,1 @@
+function e(e,t){let n=t?`${t}-`:null;if(n&&e.startsWith(n)&&e.length>n.length)return e.slice(n.length);if(!n){let t=/-(s\d+[a-z]?)$/i.exec(e);if(t)return t[1]}return e}function t(t,n){if(t==null)return null;if(t===`whole_topic`||!Array.isArray(t)||t.length===0)return`вся тема`;let r=t.map(t=>e(String(t),n));return`${r.length===1?`сцена`:`сцены`} ${r.join(`, `)}`}export{t};
